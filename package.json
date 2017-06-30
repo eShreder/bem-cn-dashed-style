@@ -1,12 +1,12 @@
 {
-  "name": "bem-cn-fast",
-  "version": "1.0.2",
-  "description": "Fast BEM class name generator",
+  "name": "bem-cn-dashed-style",
+  "version": "1.0.0",
+  "description": "BEM class name generator based on bem-cn-fast",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
-  "author": "Vitaliy Green",
+  "author": "Evgenii Shreder",
   "license": "MIT",
   "keywords": [
     "react",
@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GREENpoint/bem-cn-fast.git"
+    "url": "git+https://github.com/eShreder/bem-cn-dashed-style.git"
   },
   "bugs": {
-    "url": "https://github.com/GREENpoint/bem-cn-fast/issues"
+    "url": "https://github.com/eShreder/bem-cn-dashed-style/issues"
   },
   "devDependencies": {
     "chai": "^3.5.0",

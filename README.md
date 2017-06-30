@@ -1,21 +1,22 @@
-Fast BEM class name generator
+BEM class name generator ([original](https://github.com/GREENpoint/bem-cn-fast))
 ==============================
 
-Simple and fast [BEM](https://en.bem.info/) class names generator.
+Simple [BEM](https://en.bem.info/) class names generator.
 
-Inspired by [bem-cn](https://github.com/albburtsev/bem-cn).
+Inspired by [bem-cn-fast](https://github.com/GREENpoint/bem-cn-fast).
 
 Usage
 -----
 
 ```javascript
-import bemCn from 'bem-cn-fast';
+import bemCn from 'bem-cn-dashed-style';
 const b = bemCn('block');
 
 b(); // -> 'block'
 b('element'); // -> 'block__element'
 b({ mod1: true, mod2: 'some-value' }); // -> 'block_mod1 block_mod2_some-value'
 b('element', { mod1: true }); // -> 'block__element_mod1'
+b('element', { someMod: 'value', someMode: true}); // -> 'element_some-mod_value element_some-mod2'
 ```
 
 License
